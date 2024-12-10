@@ -1,0 +1,276 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+#tt{
+    font-size: 33px;
+    margin-top: 8%;
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 55px;
+    /* position: fixed;
+    width: 100%; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color:orange;
+}
+#h{
+    font-size: 33px;
+    padding-top: 30px;
+}
+/* p1 */
+.box1{
+    background-image:url(ph.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    padding-top: 35px;
+}
+.first-page{
+    /* display: flex;
+    justify-content: space-between; */
+}
+.t1{
+    color: white;
+    display: inline-block;
+    width: 50%;
+}
+.button1{
+    background-color: transparent;
+    color: white; 
+    /* box-shadow: none;
+    border-style:groove; */
+    border-color: white;
+    padding: 6px 6px;
+}
+/* p2 */
+.f{
+    float: right;
+    color: white;
+    padding-right: 5%;
+    padding-top: 6%;
+}
+form{
+    background-color: white;
+    /* padding-left: 40px; */
+}
+input{
+    /* margin: auto;
+    width: 80%; */
+    position: absolute;
+    width: 16%;
+    right: 210px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.button2{
+    border: none;
+    color: white;
+    background-color: orangered;
+    width: 100%;
+    padding: 10px 20px;
+}
+#form_head{
+    color:black;
+    background-color:antiquewhite;
+    padding: 8px 30px;
+}
+.box2{
+    background-color: antiquewhite;
+}
+.t2{
+    height: 430px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs{
+    padding: 55px 30px;
+    background-color: black;
+    color: white;
+    border-color: antiquewhite;
+    margin: 1px 0px;         
+}
+.buttons{
+    width: 10%;
+}
+.mid{
+    width: 40%;
+    padding-top: 3%;
+}
+.midb{
+    background-color: orangered;
+    color: white;
+    padding: 8px 8px;
+    border-color: antiquewhite;
+    margin-top: 10%;
+}
+.image{
+    width: 35%;
+}
+.img{
+    width: 100%;
+    height: 40%;
+    padding-top: 30%;
+}
+/* new */
+.page1{
+    margin-top: 8%;
+}
+.text{
+    text-align: center;
+}
+#hr{
+    width: 5%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+.chat{
+    background-color: #B197FC;
+    padding: 5% 5%;
+    border-radius: 8px;
+    position: relative;
+}
+.div1{
+    width: 25%;
+    
+
+}
+.div2{
+    width: 25%;
+}
+.div3{
+    width: 25%;
+}
+.page2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+.caret{
+    position: absolute;
+    left: 20px;
+    bottom: -4px;
+} 
+.bubble{
+    width: 80%;
+    height: 23%;
+    display: flex;
+    flex-flow:row wrap;
+    /* justify-content: space-between; */
+}
+.social{
+    background-color: grey;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.socialt{
+    padding-left: 4%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.page3{
+    display: flex;
+    justify-content: space-between;
+}
+.page3 img{
+    width: 100%;
+    height: 100%;
+    transition: 1.5s;
+}
+.page3 img:hover{
+    transform: rotate(-15deg) scale(1.5);
+    opacity: 0.5;
+}
+.b{
+    width: 30%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgb(82, 82, 82);
+}
+.page3p2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.page3p2 div{
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    border-left: 40px solid black;
+    padding: 0 0 20px 14px;
+}
+.ic{
+    position: relative;
+    box-shadow: 0px 0px 10px rgb(82, 82, 82);
+}
+.face{
+    position: absolute;
+    left: -25px;
+    top: 43px;
+}
+.user{
+    display: inline;
+    color: #7e7e7e;
+}
+.hrr{
+    margin-top: 10px;
+    background-color: #8a8a8a3f;
+    border: none;
+    height: 1px;
+    position: relative;
+    width: 100%;
+}
+.hrr:before{
+    background-color: rgb(88, 216, 255);
+    content: '';
+    height: 8px;
+    left: 0;
+    position: absolute;
+    width: 20%;
+}
+.arrow-r{
+    position: absolute;
+    left: 100px;
+}
+.tw{
+    position: absolute;
+    left: -27px;
+    top: 80px
+}
+.li{
+    position: absolute;
+    left: -27px;
+    top: 110px;
+}
+.insta{
+    position: absolute;
+    left: -27px;
+    bottom: 80px;
+}
+.google{
+    position: absolute;
+    left: -27px;
+    bottom: 50px;
+}
